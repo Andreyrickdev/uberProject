@@ -1,0 +1,17 @@
+#header {
+    background-color: red;
+    display: grid;
+}
+
+#header nav {
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#header nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

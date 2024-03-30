@@ -15,4 +15,10 @@
         const hour = date.getHours();
         return hour;
     }
+
+    function getMin () {
+        const date = getDate();
+        const min = date.getMinutes();
+        return min;
+    }
 })();

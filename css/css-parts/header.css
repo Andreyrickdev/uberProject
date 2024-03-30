@@ -3,6 +3,11 @@
     display: grid;
 }
 
+#header #timer {
+    background-color: orange;
+    font-size: 1.2rem;
+}
+
 #header nav {
     text-align: center;
     cursor: pointer;

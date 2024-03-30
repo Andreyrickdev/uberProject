@@ -10,4 +10,9 @@
         return date;
     }
 
+    function getHour () {
+        const date = getDate();
+        const hour = date.getHours();
+        return hour;
+    }
 })();

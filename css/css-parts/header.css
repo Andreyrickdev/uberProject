@@ -1,12 +1,10 @@
 #header {
-    background-color: red;
     display: grid;
     width: 100%;
     position: fixed;
 }
 
 #header #timer {
-    background-color: orange;
     font-size: 1.2rem;
 }
 

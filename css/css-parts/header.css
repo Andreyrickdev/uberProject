@@ -17,3 +17,8 @@
     gap: 10px;
     border-bottom: black 5px solid;
 }
+
+#header nav ul li:active {
+    background-color: #f0f1f2;
+    transition: all 0.1s;
+}

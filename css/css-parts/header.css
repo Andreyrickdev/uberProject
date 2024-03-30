@@ -15,4 +15,5 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    border-bottom: black 5px solid;
 }

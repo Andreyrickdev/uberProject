@@ -47,6 +47,10 @@
     .search-bg #toSchedule > p {
         display: none;
     }
+
+    .search-bg #toSchedule #arrow-down {
+        display: none;
+    }
 }
 
 .search-bg #toSchedule:active {

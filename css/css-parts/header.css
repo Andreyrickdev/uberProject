@@ -14,9 +14,12 @@
 
 #header nav {
     text-align: center;
-    cursor: pointer;
     padding: 10px 0px;
     background-color: #fff;
+}
+
+#header nav ul {
+    cursor: pointer;
 }
 
 #header nav ul li {

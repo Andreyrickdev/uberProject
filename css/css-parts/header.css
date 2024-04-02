@@ -1,3 +1,7 @@
+.header-bg {
+    height: 130px;
+}
+
 #header {
     display: grid;
     width: 100%;

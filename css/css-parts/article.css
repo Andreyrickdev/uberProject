@@ -46,6 +46,7 @@
 
     .search-bg #search {
         width: 20px;
+        height: 20px;
     }
 
     .search-bg #toSchedule > p {

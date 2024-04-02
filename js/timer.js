@@ -41,7 +41,7 @@
     }
 
     function putNumOnTimer () {
-        const hour = getHour();
+        const hour = formatHour();
         const min = getMin();
         const timer = getTimer();
 

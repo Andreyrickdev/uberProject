@@ -44,6 +44,10 @@
         display: none;
     }
 
+    .search-bg #search {
+        width: 20px;
+    }
+
     .search-bg #toSchedule > p {
         display: none;
     }

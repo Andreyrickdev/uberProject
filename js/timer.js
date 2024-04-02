@@ -21,4 +21,17 @@
         const min = date.getMinutes();
         return min;
     }
+
+    function putNumOnTimer () {
+        const hour = getHour();
+        const min = getMin();
+        const timer = getTimer();
+
+        timer.innerText = `${hour}:${min}`;
+
+    }
+
+    putNumOnTimer();
+    
+    
 })();

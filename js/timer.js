@@ -15,6 +15,15 @@
         const hour = date.getHours();
         return hour;
     }
+    
+    function formatHour () {
+        const hour = getHour();
+        if(hour < 10) {
+            return `0${hour}`;
+        } else {
+            return hour;
+        }
+    }
 
     function getMin () {
         const date = getDate();
@@ -31,7 +40,7 @@
 
     }
 
-    putNumOnTimer();
+    setInterval(putNumOnTimer, 500);
     
     
 })();

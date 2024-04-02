@@ -1,5 +1,4 @@
 .search-bg {
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +9,7 @@
     align-items: center;
     background-color: #e8e8e8;
     border-radius: 50px;
-    background-color: orange;
+    min-width: 300px;
 }
 
 .search-bg #search-now {
@@ -44,9 +43,19 @@
         display: none;
     }
 
-    .search-bg #search {
-        width: 20px;
-        height: 20px;
+    .search-bg #buttons {
+        min-width: fit-content;
+    }
+
+    .search-bg #toSchedule {
+        border-radius: 0px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .search-bg #toSchedule #clock {
+        width: 25px;
+        height: 25px;
     }
 
     .search-bg #toSchedule > p {

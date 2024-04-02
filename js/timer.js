@@ -31,6 +31,15 @@
         return min;
     }
 
+    function formatMin () {
+        const min = getMin();
+        if(min < 10) {
+            return `0${min}`;
+        } else {
+            return min;
+        }
+    }
+
     function putNumOnTimer () {
         const hour = getHour();
         const min = getMin();

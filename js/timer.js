@@ -42,7 +42,7 @@
 
     function putNumOnTimer () {
         const hour = formatHour();
-        const min = getMin();
+        const min = formatMin();
         const timer = getTimer();
 
         timer.innerText = `${hour}:${min}`;

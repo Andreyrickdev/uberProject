@@ -21,8 +21,20 @@
 
 .last-rides .inf p{
     white-space: nowrap;
-    max-width: 400px;
+    max-width: 350px;
     overflow: hidden;
+}
+
+@media (max-width: 530px) {
+    .last-rides .inf p{
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 390px) {
+    .last-rides .inf p{
+        max-width: 150px;
+    }
 }
 
 .pin-bg {

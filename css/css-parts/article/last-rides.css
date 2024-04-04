@@ -3,7 +3,12 @@
     align-items: center;
     color: #000;
     gap: 10px;
-    background-color: orange;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.last-rides li:last-of-type {
+    border-top: 1px solid rgb(234, 234, 234);
     max-width: 800px;
     margin: 0 auto;
 }

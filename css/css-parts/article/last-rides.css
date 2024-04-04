@@ -1,0 +1,9 @@
+.last-rides li a {
+    display: flex;
+    align-items: center;
+    color: #000;
+    gap: 10px;
+    background-color: orange;
+    max-width: 800px;
+    margin: 0 auto;
+}

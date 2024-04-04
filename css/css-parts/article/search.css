@@ -38,7 +38,7 @@
     transition: background-color 0.1s;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 390px) {
     .search-bg #search-now > p {
         display: none;
     }

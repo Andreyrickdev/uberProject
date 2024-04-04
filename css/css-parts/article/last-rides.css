@@ -7,3 +7,9 @@
     max-width: 800px;
     margin: 0 auto;
 }
+
+.pin-bg {
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+}

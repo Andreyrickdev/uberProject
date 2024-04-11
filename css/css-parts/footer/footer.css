@@ -9,3 +9,8 @@ footer ul {
     display: flex;
     justify-content: space-around;
 }
+
+footer ul li {
+    justify-items: center;
+    display: grid;
+}

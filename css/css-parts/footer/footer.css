@@ -8,13 +8,14 @@ footer {
 footer ul {
     display: flex;
     justify-content: space-around;
-    padding: 10px;
 }
 
 footer ul li {
     justify-items: center;
     display: grid;
     cursor: pointer;
+    flex: 1;
+    padding: 10px;
 }
 
 footer ul li:active {

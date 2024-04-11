@@ -14,4 +14,5 @@ footer ul {
 footer ul li {
     justify-items: center;
     display: grid;
+    cursor: pointer;
 }

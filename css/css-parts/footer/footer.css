@@ -16,3 +16,8 @@ footer ul li {
     display: grid;
     cursor: pointer;
 }
+
+footer ul li:active {
+    background-color: #f0f1f2;
+    transition: all 0.1s;
+}

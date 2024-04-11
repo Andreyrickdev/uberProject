@@ -1,4 +1,5 @@
 @import './css-parts/global.css';
+@import './css-parts/header/timer-num.css';
 @import './css-parts/header/header.css';
 
 @import './css-parts/article/search.css';
